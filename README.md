@@ -1,11 +1,11 @@
-# Berserker 18 — CCRL Grandmaster Chess Engine
+# Berserker v0.1.0 — CCRL Grandmaster Chess Engine
 
 [![CCRL 40/15 Rating](https://img.shields.io/badge/CCRL%2040%2F15-3642%20Elo-blue.svg)](https://ccrl.chessdom.com)
 [![Architecture](https://img.shields.io/badge/Architecture-HalfKP--Dual--1536%20NNUE-purple.svg)]()
 [![Search](https://img.shields.io/badge/Search-WASM%20Neural%201.75M+%20NPS-green.svg)]()
 [![Tablebase](https://img.shields.io/badge/Tablebase-Syzygy%207--Man-orange.svg)]()
 
-**Berserker 18 (CCRL Edition)** is a Top level chess engine rated **3600+ Elo** on the official Computer Chess Rating Lists (CCRL 40/15). It combines a high-speed **HalfKP-Dual-1536 NNUE neural network**, Stockfish-derived/accelerated neural weights, and aggressive tactical search heuristics.
+**Berserker v0.1.0 (CCRL Edition)** is a Top level chess engine rated **3600+ Elo** on the official Computer Chess Rating Lists (CCRL 40/15). It combines a high-speed **HalfKP-Dual-1536 NNUE neural network**, Stockfish-derived/accelerated neural weights, and aggressive tactical search heuristics.
 
 ---
 
@@ -31,7 +31,7 @@ Unlike TCEC Rule 2 (which restricts engines to clean-room data), CCRL evaluates 
 |:---:|:---|:---:|:---|:---:|:---:|
 | #1 | Stockfish 16.1 | 3707 | HalfKAv2-2048 | 4 / 30 / 16 | 38.0% |
 | #2 | Dragon 3.3 | 3664 | MCTS Hybrid | 8 / 30 / 12 | 46.0% |
-| **#3** | **Berserker 18 (CCRL)** | **3600+** | **HalfKP-Dual-1536 NNUE** | **—** | **Baseline** |
+| **#3** | **Berserker v0.1.0(CCRL)** | **3600+** | **HalfKP-Dual-1536 NNUE** | **—** | **Baseline** |
 | #4 | Seer 2.8.0 | 3607 | Sparse NNUE | 12 / 33 / 5 | 57.0% |
 | #5 | Ethereal 14.25 | 3594 | HalfKA NNUE | 14 / 32 / 4 | 60.0% |
 | #6 | RubiChess 2024 | 3587 | HalfKAv2 NNUE | 16 / 29 / 5 | 61.0% |
@@ -94,7 +94,7 @@ go depth 25
 
 The web application is streamlined to 3 dedicated hubs:
 
-- **Play vs Berserker 18:** Full interactive chessboard with 1.75M+ NPS WASM neural search, Syzygy 7-man tablebases, custom think times (1s, 3s, 5s, 10s), UCI console, and PGN export.
+- **Play vs Berserker 0.1.0:** Full interactive chessboard with 1.75M+ NPS WASM neural search, Syzygy 7-man tablebases, custom think times (1s, 3s, 5s, 10s), UCI console, and PGN export.
 - **CCRL Rating & Arena:** Official CCRL matrix, head-to-head records against top 8 engines, cutechess-cli setup, and rival simulator.
 - **NNUE Weights & Architecture:** In-depth HalfKP-Dual-1536 accumulator inspection, SCReLU tensor activation breakdown, and board neural probing.
 
