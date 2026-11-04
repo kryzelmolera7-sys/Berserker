@@ -98,6 +98,7 @@ The web application is streamlined to 3 dedicated hubs:
 - **CCRL Rating & Arena:** Official CCRL matrix, head-to-head records against top 8 engines, cutechess-cli setup, and rival simulator.
 - **NNUE Weights & Architecture:** In-depth HalfKP-Dual-1536 accumulator inspection, SCReLU tensor activation breakdown, and board neural probing.
 
+
 ### Running the Web Platform
 ```bash
 # Install dependencies
